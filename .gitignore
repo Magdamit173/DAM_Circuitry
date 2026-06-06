@@ -1,3 +1,5 @@
 fp-info-cache
 *.lck
 *.ms14 (Security Copy)
+DAM_Circuit-backups
+\#auto_saved_files\#

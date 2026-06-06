@@ -6282,6 +6282,147 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:LM7805_TO220"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM7805_TO220"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Voltage Regulator 1A Positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM7805_TO220_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM7805_TO220_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Sensor_Magnetic:A1104xLH"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7282,6 +7423,12 @@
 		(uuid "0dce125c-f950-4ae5-b570-8d22207a3318")
 	)
 	(junction
+		(at 123.19 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ff021c6-5599-456b-8352-f68385063e2e")
+	)
+	(junction
 		(at 36.83 473.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7328,6 +7475,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27a0d0a1-c2e1-4c4e-99bc-88aed00bb33d")
+	)
+	(junction
+		(at 154.94 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a3acc77-3ce8-445e-bc80-97657eae5658")
 	)
 	(junction
 		(at 229.87 138.43)
@@ -7534,12 +7687,6 @@
 		(uuid "7ef0ce53-c254-49bc-ad97-0d98d0668765")
 	)
 	(junction
-		(at 157.48 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f741f41-b451-49ac-a677-8bb478527e57")
-	)
-	(junction
 		(at 476.25 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7642,6 +7789,12 @@
 		(uuid "9ba3d797-dfbb-4e2c-9f43-58c723d37444")
 	)
 	(junction
+		(at 140.97 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c0a01fb-fca3-448f-b03f-69cf0f09c592")
+	)
+	(junction
 		(at 184.15 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7732,6 +7885,12 @@
 		(uuid "bcd28c1b-03d3-4859-be2b-147637b7562d")
 	)
 	(junction
+		(at 157.48 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd5873b6-861a-4419-bbe5-746e7f831a58")
+	)
+	(junction
 		(at 124.46 365.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7766,6 +7925,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6aa7768-6ff4-4980-a7bb-57026bf1c5d2")
+	)
+	(junction
+		(at 140.97 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7bfdae2-9817-4722-993b-772bdfc35692")
 	)
 	(junction
 		(at 513.08 261.62)
@@ -7838,6 +8003,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df196bfb-7b27-4ef7-bc44-4197b2bc42e3")
+	)
+	(junction
+		(at 168.91 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dff4c085-3703-4253-9e0e-4eace6131d77")
 	)
 	(junction
 		(at 312.42 231.14)
@@ -8485,6 +8656,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 52.07) (xy 123.19 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0de0c0-cb28-41e9-9227-021d9597ebc6")
+	)
+	(wire
+		(pts
 			(xy 443.23 313.69) (xy 444.5 313.69)
 		)
 		(stroke
@@ -9032,6 +9213,16 @@
 			(type default)
 		)
 		(uuid "31dd44c7-67f8-4fb6-847d-0b935ab9c7fa")
+	)
+	(wire
+		(pts
+			(xy 123.19 39.37) (xy 123.19 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3221acb9-aa78-4ba9-8d07-d525589720ee")
 	)
 	(wire
 		(pts
@@ -9915,6 +10106,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 49.53) (xy 123.19 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5df67c-af26-4f6b-84ec-0ac4f7c1f249")
+	)
+	(wire
+		(pts
 			(xy 654.05 148.59) (xy 656.59 148.59)
 		)
 		(stroke
@@ -10075,6 +10276,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 55.88) (xy 140.97 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54e5a9bc-a542-4b2d-a85d-fc4e49e47223")
+	)
+	(wire
+		(pts
 			(xy 335.28 201.93) (xy 335.28 205.74)
 		)
 		(stroke
@@ -10092,6 +10303,16 @@
 			(type default)
 		)
 		(uuid "560f6387-17a2-45d0-8fb6-9dce069a7adf")
+	)
+	(wire
+		(pts
+			(xy 154.94 57.15) (xy 168.91 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56138a65-a0fb-48a5-b0c6-9caef44737b6")
 	)
 	(wire
 		(pts
@@ -10155,6 +10376,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 46.99) (xy 140.97 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b09ad64-dc98-4bae-9579-dc63010b2b2e")
+	)
+	(wire
+		(pts
 			(xy 548.64 151.13) (xy 548.64 143.51)
 		)
 		(stroke
@@ -10192,6 +10423,16 @@
 			(type default)
 		)
 		(uuid "5bc6300a-ea6c-48b5-876b-c850c1fbe872")
+	)
+	(wire
+		(pts
+			(xy 140.97 46.99) (xy 140.97 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c5ce822-fb8e-45a7-8ec9-9d5d2e1fa7c7")
 	)
 	(wire
 		(pts
@@ -10342,6 +10583,16 @@
 			(type default)
 		)
 		(uuid "6101755c-0897-43e1-8618-327e7f6e5fca")
+	)
+	(wire
+		(pts
+			(xy 154.94 57.15) (xy 154.94 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61119a4b-500e-406f-9368-62c70ba0f4d5")
 	)
 	(wire
 		(pts
@@ -10802,6 +11053,16 @@
 			(type default)
 		)
 		(uuid "7493d81f-8995-4bb6-917b-301473bf83f0")
+	)
+	(wire
+		(pts
+			(xy 162.56 46.99) (xy 168.91 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74dd6bc5-da2d-4f31-b048-1799821fbe17")
 	)
 	(wire
 		(pts
@@ -11425,6 +11686,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 52.07) (xy 123.19 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c139037-03b3-4b4f-875d-1c3543cb72bb")
+	)
+	(wire
+		(pts
 			(xy 46.99 368.3) (xy 55.88 368.3)
 		)
 		(stroke
@@ -11462,6 +11733,16 @@
 			(type default)
 		)
 		(uuid "8d7e6109-f6c0-487c-be48-94be5ae249a2")
+	)
+	(wire
+		(pts
+			(xy 154.94 57.15) (xy 154.94 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d968525-48c3-476c-a278-7dfb1a1ec97f")
 	)
 	(wire
 		(pts
@@ -12285,6 +12566,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 57.15) (xy 140.97 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0994f90-220c-41a2-a033-998f81aba13f")
+	)
+	(wire
+		(pts
 			(xy 166.37 381) (xy 167.64 381)
 		)
 		(stroke
@@ -12432,6 +12723,26 @@
 			(type default)
 		)
 		(uuid "b6ae61fc-7cd6-4230-98b7-8c5e7a30d7b0")
+	)
+	(wire
+		(pts
+			(xy 157.48 163.83) (xy 157.48 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6b69933-6a71-4e84-9c33-49c230d64465")
+	)
+	(wire
+		(pts
+			(xy 168.91 48.26) (xy 168.91 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f37fc7-4463-4483-a9ff-91b567a054b2")
 	)
 	(wire
 		(pts
@@ -12792,6 +13103,16 @@
 			(type default)
 		)
 		(uuid "c46430cc-32d5-4adb-81fc-607a5873e2b0")
+	)
+	(wire
+		(pts
+			(xy 168.91 39.37) (xy 168.91 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c473bbd3-619a-43c6-9faf-c8a66b64a2f9")
 	)
 	(wire
 		(pts
@@ -13305,6 +13626,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 49.53) (xy 123.19 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a7320f-d68d-40ee-8c86-bd0b7b9cccb6")
+	)
+	(wire
+		(pts
 			(xy 598.17 151.13) (xy 595.63 151.13)
 		)
 		(stroke
@@ -13705,6 +14036,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 55.88) (xy 168.91 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8cfde25-a9e2-4af5-9ea3-da62783aafa6")
+	)
+	(wire
+		(pts
 			(xy 298.45 194.31) (xy 283.21 194.31)
 		)
 		(stroke
@@ -13795,16 +14136,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 163.83) (xy 157.48 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eddf0118-7c41-49f5-8b9a-579733d1c7b1")
-	)
-	(wire
-		(pts
 			(xy 36.83 289.56) (xy 36.83 292.1)
 		)
 		(stroke
@@ -13822,6 +14153,16 @@
 			(type default)
 		)
 		(uuid "eebb31ee-893a-493f-a1c5-eb4760162dcb")
+	)
+	(wire
+		(pts
+			(xy 140.97 46.99) (xy 147.32 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef022b14-d730-4e84-9138-4c7db184b888")
 	)
 	(wire
 		(pts
@@ -14232,6 +14573,16 @@
 			(type default)
 		)
 		(uuid "fd3dd48c-ef09-412f-ab55-18f9b27627ed")
+	)
+	(wire
+		(pts
+			(xy 140.97 57.15) (xy 154.94 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd41bac8-3998-406f-b044-6bef9b9a8239")
 	)
 	(wire
 		(pts
@@ -16789,7 +17140,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 223.52 370.84 0)
 			(effects
 				(font
@@ -17035,7 +17386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 311.15 196.85 0)
 			(effects
 				(font
@@ -17147,7 +17498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 378.46 242.57 0)
 			(effects
 				(font
@@ -17997,7 +18348,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 360.68 293.37 0)
 			(effects
 				(font
@@ -18166,7 +18517,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 388.62 255.5748 0)
 			(effects
 				(font
@@ -18236,7 +18587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 379.73 298.45 0)
 			(effects
 				(font
@@ -18472,7 +18823,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 452.12 313.69 0)
 			(effects
 				(font
@@ -18578,7 +18929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 157.48 143.51 0)
 			(effects
 				(font
@@ -19359,7 +19710,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 264.16 164.1348 0)
 			(effects
 				(font
@@ -19764,7 +20115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 476.25 222.25 0)
 			(effects
 				(font
@@ -19937,7 +20288,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 433.07 315.2648 0)
 			(effects
 				(font
@@ -20254,6 +20605,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 157.48 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f8cc7b0-eb90-45ef-9141-6bce2678a735")
+		(property "Reference" "#PWR02"
+			(at 157.48 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "117be7d1-3980-44c3-a4f0-16b4a1f1455c")
+		)
+		(instances
+			(project "DAM_Circuit"
+				(path "/76875f44-066f-4112-bafd-d2fd287676a8"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS32")
 		(at 341.63 176.53 0)
 		(unit 5)
@@ -20281,7 +20698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 341.63 176.53 0)
 			(effects
 				(font
@@ -20827,6 +21244,76 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 168.91 52.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3680b1b5-9b4b-4427-808f-fc7fe8201c8c")
+		(property "Reference" "C20"
+			(at 172.72 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 172.72 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 167.9448 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 168.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0230522-ac79-457f-a044-4bba345562df")
+		)
+		(pin "2"
+			(uuid "46e285b8-f2d1-4b74-9b40-4d8fa97dc256")
+		)
+		(instances
+			(project "DAM_Circuit"
+				(path "/76875f44-066f-4112-bafd-d2fd287676a8"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 617.22 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20850,7 +21337,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 621.03 160.3248 0)
 			(effects
 				(font
@@ -21128,7 +21615,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 199.39 424.18 0)
 			(effects
 				(font
@@ -21231,7 +21718,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 209.55 174.2948 0)
 			(effects
 				(font
@@ -21480,6 +21967,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 168.91 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "413ea67f-3520-466c-821b-eacf88f5dbe5")
+		(property "Reference" "#PWR0105"
+			(at 168.91 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 168.91 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 168.91 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ec80de4-5df8-4eab-9d68-c87b822c6576")
+		)
+		(instances
+			(project "DAM_Circuit"
+				(path "/76875f44-066f-4112-bafd-d2fd287676a8"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 270.51 405.13 0)
 		(unit 1)
@@ -21575,7 +22128,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 412.75 134.62 0)
 			(effects
 				(font
@@ -21681,7 +22234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 166.37 416.56 0)
 			(effects
 				(font
@@ -21863,7 +22416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 511.81 201.93 0)
 			(effects
 				(font
@@ -21974,7 +22527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 486.41 222.25 0)
 			(effects
 				(font
@@ -22080,7 +22633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 254 143.51 0)
 			(effects
 				(font
@@ -22258,7 +22811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 480.06 251.46 0)
 			(effects
 				(font
@@ -22356,7 +22909,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 412.75 147.32 0)
 			(effects
 				(font
@@ -22528,7 +23081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 610.87 140.97 0)
 			(effects
 				(font
@@ -22704,7 +23257,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 151.13 162.8648 0)
 			(effects
 				(font
@@ -22939,6 +23492,72 @@
 			(project "DAM_Circuit"
 				(path "/76875f44-066f-4112-bafd-d2fd287676a8"
 					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 123.19 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50967c8c-4952-4c5a-baba-eebf05ffb8a0")
+		(property "Reference" "#PWR0104"
+			(at 123.19 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 123.19 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 123.19 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0e831ba-0057-4562-941e-ee7532bbdc6c")
+		)
+		(instances
+			(project "DAM_Circuit"
+				(path "/76875f44-066f-4112-bafd-d2fd287676a8"
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -23419,6 +24038,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 140.97 52.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60dcf2db-2e18-463f-8597-386faa31de38")
+		(property "Reference" "C19"
+			(at 144.78 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10 uF"
+			(at 144.78 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 140.0048 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 140.97 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db7204ac-3ffb-463d-be39-27af52e969fb")
+		)
+		(pin "2"
+			(uuid "d472e814-cb34-404c-99ec-67e805f2545a")
+		)
+		(instances
+			(project "DAM_Circuit"
+				(path "/76875f44-066f-4112-bafd-d2fd287676a8"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS04")
 		(at 412.75 121.92 0)
 		(unit 1)
@@ -23443,7 +24132,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 412.75 121.92 0)
 			(effects
 				(font
@@ -23582,6 +24271,78 @@
 			(project "DAM_Circuit"
 				(path "/76875f44-066f-4112-bafd-d2fd287676a8"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LM7805_TO220")
+		(at 154.94 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63cbc3de-a9aa-41d2-b718-c40a02c6aae3")
+		(property "Reference" "U29"
+			(at 154.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM7805_TO220"
+			(at 154.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 154.94 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
+			(at 154.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
+			(at 154.94 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c0aeaee-5552-4146-ab4b-f553483434ba")
+		)
+		(pin "2"
+			(uuid "5834de55-36bf-4135-acce-7ca48bc7a7df")
+		)
+		(pin "3"
+			(uuid "e56ba47c-8a46-4511-a5f3-0ce52feea7a9")
+		)
+		(instances
+			(project ""
+				(path "/76875f44-066f-4112-bafd-d2fd287676a8"
+					(reference "U29")
 					(unit 1)
 				)
 			)
@@ -23750,7 +24511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 227.33 223.52 0)
 			(effects
 				(font
@@ -23940,7 +24701,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 195.2752 458.47 0)
 			(effects
 				(font
@@ -24095,7 +24856,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 354.33 189.5348 0)
 			(effects
 				(font
@@ -24271,6 +25032,76 @@
 			(project "DAM_Circuit"
 				(path "/76875f44-066f-4112-bafd-d2fd287676a8"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 115.57 49.53 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7023db29-35d3-4b85-ad43-9a35489194bf")
+		(property "Reference" "J3"
+			(at 113.03 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Power Source (12V)"
+			(at 113.03 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 115.57 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 115.57 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86593434-9298-406f-a789-8be1fc253e5d")
+		)
+		(pin "2"
+			(uuid "a1894302-0432-4bf6-96e8-18e6b383e630")
+		)
+		(instances
+			(project ""
+				(path "/76875f44-066f-4112-bafd-d2fd287676a8"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -24461,7 +25292,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 360.68 209.55 0)
 			(effects
 				(font
@@ -24631,7 +25462,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 304.8 216.2048 0)
 			(effects
 				(font
@@ -25233,7 +26064,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 195.2752 402.59 0)
 			(effects
 				(font
@@ -25432,7 +26263,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 520.7 223.8248 0)
 			(effects
 				(font
@@ -25568,7 +26399,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 388.62 313.9948 0)
 			(effects
 				(font
@@ -25770,7 +26601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 166.37 360.68 0)
 			(effects
 				(font
@@ -26015,7 +26846,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 532.13 317.5 0)
 			(effects
 				(font
@@ -26997,7 +27828,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 379.73 209.55 0)
 			(effects
 				(font
@@ -27169,7 +28000,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 201.93 330.2 0)
 			(effects
 				(font
@@ -27275,7 +28106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 563.88 148.59 0)
 			(effects
 				(font
@@ -27461,7 +28292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 199.39 148.59 0)
 			(effects
 				(font
@@ -27705,7 +28536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 350.52 242.57 0)
 			(effects
 				(font
@@ -28070,7 +28901,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 398.78 209.55 0)
 			(effects
 				(font
@@ -28509,7 +29340,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 534.67 289.56 0)
 			(effects
 				(font
@@ -28755,7 +29586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 403.86 241.3 0)
 			(effects
 				(font
@@ -28859,7 +29690,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 412.75 160.02 0)
 			(effects
 				(font
@@ -29031,7 +29862,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 574.04 178.1048 0)
 			(effects
 				(font
@@ -29237,7 +30068,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 210.82 344.4748 0)
 			(effects
 				(font
@@ -29485,6 +30316,72 @@
 			(project "DAM_Circuit"
 				(path "/76875f44-066f-4112-bafd-d2fd287676a8"
 					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be5f9a97-f4da-40d4-aa8c-d631e41e5888")
+		(property "Reference" "#PWR0106"
+			(at 154.94 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2323fdce-2a3b-4a8e-bd67-b725fe30280a")
+		)
+		(instances
+			(project "DAM_Circuit"
+				(path "/76875f44-066f-4112-bafd-d2fd287676a8"
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -29850,7 +30747,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 360.68 323.85 0)
 			(effects
 				(font
@@ -30020,7 +30917,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 199.39 368.3 0)
 			(effects
 				(font
@@ -30256,7 +31153,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 411.48 176.53 0)
 			(effects
 				(font
@@ -31095,7 +31992,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 175.26 435.9148 0)
 			(effects
 				(font
@@ -31165,7 +32062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 424.18 300.99 0)
 			(effects
 				(font
@@ -31469,7 +32366,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 332.74 213.36 0)
 			(effects
 				(font
@@ -31573,7 +32470,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 452.12 289.56 0)
 			(effects
 				(font
@@ -31647,72 +32544,6 @@
 				(path "/76875f44-066f-4112-bafd-d2fd287676a8"
 					(reference "U11")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 157.48 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6f3f0e1-a6e4-4b4a-9843-f114111e11fc")
-		(property "Reference" "#PWR02"
-			(at 157.48 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 157.48 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5bba8de5-c017-4123-b9d1-9a5d2e39e8e2")
-		)
-		(instances
-			(project "DAM_Circuit"
-				(path "/76875f44-066f-4112-bafd-d2fd287676a8"
-					(reference "#PWR02")
-					(unit 1)
 				)
 			)
 		)
@@ -31874,7 +32705,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 412.75 255.5748 0)
 			(effects
 				(font
@@ -32007,7 +32838,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 361.95 255.5748 0)
 			(effects
 				(font
@@ -32074,7 +32905,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 175.26 380.0348 0)
 			(effects
 				(font
@@ -32422,7 +33253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 516.89 273.05 0)
 			(effects
 				(font
@@ -32732,7 +33563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 308.61 242.57 0)
 			(effects
 				(font
@@ -32918,7 +33749,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 360.68 308.61 0)
 			(effects
 				(font
@@ -33022,7 +33853,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 158.75 184.15 0)
 			(effects
 				(font
@@ -33126,7 +33957,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 223.52 426.72 0)
 			(effects
 				(font
@@ -33230,7 +34061,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 549.91 317.5 0)
 			(effects
 				(font
